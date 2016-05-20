@@ -1,5 +1,8 @@
 # solemnsky status 2016/5/15
 
+ * solemnsky commit: 02c0efb163c77423835b754e190bce386b9962e7
+ * solemnsky.com commit: none
+
 This is the first solemnsky status update! Hopefully I've been making a habit of keeping
  these coming out as the project advances. 
 
