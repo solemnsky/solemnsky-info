@@ -20,7 +20,7 @@
         <path d="M432 438 L432 466 L532 466 L532 438 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
-        <path d="M343 370 L343 398 L443 398 L443 370 Z"/>
+        <path d="M384 348 L384 376 L484 376 L484 348 Z"/>
       </clipPath>
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
         <path d="M302 549 L302 577 L402 577 L402 549 Z"/>
@@ -70,6 +70,9 @@
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath21">
         <path d="M481 570 L481 598 L581 598 L581 570 Z"/>
       </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath22">
+        <path d="M538 393 L538 421 L638 421 L638 393 Z"/>
+      </clipPath>
     </defs>
     <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="translate(-2,-48)" stroke="white">
       <rect x="2" width="747" height="602" y="48" clip-path="url(#clipPath2)" stroke="none"/>
@@ -109,14 +112,14 @@
       <text x="470.4346" xml:space="preserve" y="456.0698" clip-path="url(#clipPath4)" stroke="none">Sky</text>
     </g>
     <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-2,-48)" stroke="rgb(255,204,0)">
-      <rect x="344" width="98" height="26" y="371" clip-path="url(#clipPath2)" stroke="none"/>
-      <rect x="343" y="370" clip-path="url(#clipPath2)" fill="yellow" width="1" height="28" stroke="none"/>
-      <rect x="344" y="370" clip-path="url(#clipPath2)" fill="yellow" width="98" height="1" stroke="none"/>
-      <rect x="344" y="397" clip-path="url(#clipPath2)" fill="rgb(178,142,0)" width="99" height="1" stroke="none"/>
-      <rect x="442" y="370" clip-path="url(#clipPath2)" fill="rgb(178,142,0)" width="1" height="27" stroke="none"/>
+      <rect x="385" width="98" height="26" y="349" clip-path="url(#clipPath2)" stroke="none"/>
+      <rect x="384" y="348" clip-path="url(#clipPath2)" fill="yellow" width="1" height="28" stroke="none"/>
+      <rect x="385" y="348" clip-path="url(#clipPath2)" fill="yellow" width="98" height="1" stroke="none"/>
+      <rect x="385" y="375" clip-path="url(#clipPath2)" fill="rgb(178,142,0)" width="99" height="1" stroke="none"/>
+      <rect x="483" y="348" clip-path="url(#clipPath2)" fill="rgb(178,142,0)" width="1" height="27" stroke="none"/>
     </g>
     <g font-size="13px" stroke-linecap="butt" transform="matrix(1,0,0,1,-2,-48)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
-      <text x="359.7637" xml:space="preserve" y="388.0698" clip-path="url(#clipPath5)" stroke="none">SkyHandle</text>
+      <text x="401.3637" xml:space="preserve" y="366.4136" clip-path="url(#clipPath5)" stroke="none">SkyHandle</text>
     </g>
     <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-2,-48)" stroke="rgb(255,204,0)">
       <rect x="303" width="98" height="26" y="550" clip-path="url(#clipPath2)" stroke="none"/>
@@ -305,98 +308,104 @@
     <g font-size="13px" stroke-linecap="butt" transform="matrix(1,0,0,1,-2,-48)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
       <text x="540.3491" xml:space="preserve" y="298.4504" clip-path="url(#clipPath2)" stroke="none">Subsystem</text>
       <ellipse rx="71.5" fill="none" ry="25" clip-path="url(#clipPath2)" cx="572.5" cy="293.3438"/>
+    </g>
+    <g fill="rgb(255,204,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-2,-48)" stroke="rgb(255,204,0)">
+      <rect x="539" width="98" height="26" y="394" clip-path="url(#clipPath2)" stroke="none"/>
+      <rect x="538" y="393" clip-path="url(#clipPath2)" fill="yellow" width="1" height="28" stroke="none"/>
+      <rect x="539" y="393" clip-path="url(#clipPath2)" fill="yellow" width="98" height="1" stroke="none"/>
+      <rect x="539" y="420" clip-path="url(#clipPath2)" fill="rgb(178,142,0)" width="99" height="1" stroke="none"/>
+      <rect x="637" y="393" clip-path="url(#clipPath2)" fill="rgb(178,142,0)" width="1" height="27" stroke="none"/>
+    </g>
+    <g font-size="13px" stroke-linecap="butt" transform="matrix(1,0,0,1,-2,-48)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" font-weight="bold" stroke-miterlimit="1.45">
+      <text x="552.3787" xml:space="preserve" y="411.2417" clip-path="url(#clipPath22)" stroke="none">Scoreboard</text>
       <path fill="none" d="M309.0273 287.5724 L335.9294 289.2246" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-dasharray="6,2" d="M411.3171 397.9951 L459.7005 434.9622" clip-path="url(#clipPath2)"/>
-      <path stroke-dasharray="6,2" d="M462.8789 437.3907 L456.9863 425.3375 L462.8789 437.3907 L449.7009 434.8728 Z" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-2,-48)">
-      <path fill="none" d="M462.8789 437.3907 L456.9863 425.3375 L462.8789 437.3907 L449.7009 434.8728 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M337.2563 577.0186 L309.3271 603.5743" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M306.4283 606.3305 L319.2591 602.41 L306.4283 606.3305 L310.9903 593.7136 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M306.4283 606.3305 L319.2591 602.41 L306.4283 606.3305 L310.9903 593.7136 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M369.4023 577.0186 L402.7512 603.8829" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M405.8662 606.3923 L400.2852 594.1918 L405.8662 606.3923 L392.7572 603.5368 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M405.8662 606.3923 L400.2852 594.1918 L405.8662 606.3923 L392.7572 603.5368 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M447.6909 465.9875 L390.9489 489.1208" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M387.2448 490.631 L400.622 491.6566 L387.2448 490.631 L396.0917 480.5446 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M387.2448 490.631 L400.622 491.6566 L387.2448 490.631 L396.0917 480.5446 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M352 519.0186 L352 544.041" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M352 548.041 L358 536.041 L352 548.041 L346 536.041 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M352 548.041 L358 536.041 L352 548.041 L346 536.041 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M302.0122 515.7666 L276.8565 521.1848" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M272.9461 522.027 L285.9405 525.3658 L272.9461 522.027 L283.4138 513.6348 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M272.9461 522.027 L285.9405 525.3658 L272.9461 522.027 L283.4138 513.6348 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M532.0222 456.2964 L590.0114 461.277" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M593.9966 461.6194 L582.5541 454.6144 L593.9966 461.6194 L581.5272 466.5704 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M593.9966 461.6194 L582.5541 454.6144 L593.9966 461.6194 L581.5272 466.5704 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M482 465.9785 L482 500.9934" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M482 504.9934 L488 492.9934 L482 504.9934 L476 492.9934 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M482 504.9934 L488 492.9934 L482 504.9934 L476 492.9934 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M343.0298 387.4618 L296.3363 390.6966" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-2,-48)" fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="6,2" stroke="white" stroke-miterlimit="1.45">
-      <path d="M281.3721 391.7332 L297.7485 396.6131 L296.9192 384.6418 Z" stroke="none" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-dasharray="none" d="M281.3721 391.7332 L297.7485 396.6131 L296.9192 384.6418 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M254.9609 298.5105 L238.3012 356.2989" clip-path="url(#clipPath2)" stroke="black"/>
-      <path d="M234.1461 370.7119 L244.3434 357.0001 L232.813 353.676 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M234.1461 370.7119 L244.3434 357.0001 L232.813 353.676 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M336.0393 491.0184 L263.6147 427.5745" clip-path="url(#clipPath2)" stroke="black"/>
-      <path d="M252.3316 417.6905 L260.4133 432.7466 L268.3205 423.7202 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M252.3316 417.6905 L260.4133 432.7466 L268.3205 423.7202 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M137.0049 416.3917 L173.1477 408.0014" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="black" d="M177.0441 407.0969 L163.9982 403.9659 L177.0441 407.0969 L166.7118 415.6551 Z" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-2,-48)">
-      <path fill="none" d="M177.0441 407.0969 L163.9982 403.9659 L177.0441 407.0969 L166.7118 415.6551 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M117.0391 373.1642 L171.8858 384.3049" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M175.8058 385.1012 L165.2403 376.8325 L175.8058 385.1012 L162.8516 388.5924 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M175.8058 385.1012 L165.2403 376.8325 L175.8058 385.1012 L162.8516 388.5924 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" d="M255.3525 270.5181 L247.4764 240.3261" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M241 190.5 L241 159.9702" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M241 155.9702 L235 167.9702 L241 155.9702 L247 167.9702 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M241 155.9702 L235 167.9702 L241 155.9702 L247 167.9702 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M290.2896 97.0186 L260.3984 123.6906" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M257.4139 126.3538 L270.3623 122.8412 L257.4139 126.3538 L262.3728 113.8875 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M257.4139 126.3538 L270.3623 122.8412 L257.4139 126.3538 L262.3728 113.8875 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M191.7104 97.0186 L221.6016 123.6906" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M224.5861 126.3538 L219.6272 113.8875 L224.5861 126.3538 L211.6377 122.8412 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M224.5861 126.3538 L219.6272 113.8875 L224.5861 126.3538 L211.6377 122.8412 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M492.7556 534.0149 L517.7293 566.5564" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M520.1646 569.7296 L517.6187 556.557 L520.1646 569.7296 L508.0989 563.8628 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M520.1646 569.7296 L517.6187 556.557 L520.1646 569.7296 L508.0989 563.8628 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M532.0365 526.366 L620.5756 537.6305" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-      <path stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M624.5436 538.1353 L613.3968 530.6688 L624.5436 538.1353 L611.8823 542.5729 Z" clip-path="url(#clipPath2)" stroke-linecap="butt" stroke="none"/>
-      <path fill="none" d="M624.5436 538.1353 L613.3968 530.6688 L624.5436 538.1353 L611.8823 542.5729 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M511.5757 465.9977 L626.8441 520.5522" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-2,-48)" fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="6,2" stroke="white" stroke-miterlimit="1.45">
-      <path d="M640.4023 526.969 L628.507 514.7011 L623.3735 525.5477 Z" stroke="none" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-dasharray="none" d="M640.4023 526.969 L628.507 514.7011 L623.3735 525.5477 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M631.1542 557.7222 L586.3261 569.7678" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="black" d="M582.4631 570.8058 L595.609 573.4863 L582.4631 570.8058 L592.4951 561.8974 Z" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-2,-48)">
-      <path fill="none" d="M582.4631 570.8058 L595.609 573.4863 L582.4631 570.8058 L592.4951 561.8974 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-miterlimit="1.45" stroke-dasharray="6,2" d="M460.686 207.2524 L531.0508 261.4299" clip-path="url(#clipPath2)" stroke-linecap="butt"/>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-2,-48)" fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="6,2" stroke="white" stroke-miterlimit="1.45">
-      <path d="M542.936 270.581 L533.9189 256.0658 L526.5981 265.5739 Z" stroke="none" clip-path="url(#clipPath2)"/>
-      <path fill="none" stroke-dasharray="none" d="M542.936 270.581 L533.9189 256.0658 L526.5981 265.5739 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M492.4878 125.9202 L507.5 129.5 L517.5 200.5 L550.3528 255.9579" clip-path="url(#clipPath2)" stroke="black"/>
-      <path d="M557.998 268.8634 L555.0054 252.0395 L544.681 258.1556 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M557.998 268.8634 L555.0054 252.0395 L544.681 258.1556 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M572.5 167.6446 L572.5 253.3438" clip-path="url(#clipPath2)" stroke="black"/>
-      <path d="M572.5 268.3438 L578.5 252.3438 L566.5 252.3438 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M572.5 268.3438 L578.5 252.3438 L566.5 252.3438 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M420.7401 369.9899 L518.4121 320.6608" clip-path="url(#clipPath2)" stroke="black"/>
-      <path d="M531.8014 313.8985 L514.8146 315.7559 L520.2244 326.4673 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M531.8014 313.8985 L514.8146 315.7559 L520.2244 326.4673 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M489.9762 438.0169 L551.0829 330.8902" clip-path="url(#clipPath2)" stroke="black"/>
-      <path d="M558.5151 317.8609 L545.3757 328.786 L555.7992 334.7317 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M558.5151 317.8609 L545.3757 328.786 L555.7992 334.7317 Z" clip-path="url(#clipPath2)" stroke="black"/>
-      <path fill="none" d="M501 293.3438 L486 293.3438" clip-path="url(#clipPath2)" stroke="black"/>
-      <path d="M471 293.3438 L487 299.3438 L487 287.3438 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <path fill="none" stroke-dasharray="none" d="M471 293.3438 L487 299.3438 L487 287.3438 Z" clip-path="url(#clipPath2)" stroke="black"/>
+    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" stroke-dasharray="6,2" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-2,-48)" stroke-linecap="butt">
+      <path fill="none" d="M441.9831 376.3088 L472.2576 433.5724" clip-path="url(#clipPath2)"/>
+      <path d="M474.1272 437.1086 L473.8228 423.6957 L474.1272 437.1086 L463.2142 429.3044 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M474.1272 437.1086 L473.8228 423.6957 L474.1272 437.1086 L463.2142 429.3044 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M337.2563 577.0186 L309.3271 603.5743" clip-path="url(#clipPath2)"/>
+      <path d="M306.4283 606.3305 L319.2591 602.41 L306.4283 606.3305 L310.9903 593.7136 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M306.4283 606.3305 L319.2591 602.41 L306.4283 606.3305 L310.9903 593.7136 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M369.4023 577.0186 L402.7512 603.8829" clip-path="url(#clipPath2)"/>
+      <path d="M405.8662 606.3923 L400.2852 594.1918 L405.8662 606.3923 L392.7572 603.5368 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M405.8662 606.3923 L400.2852 594.1918 L405.8662 606.3923 L392.7572 603.5368 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M447.6909 465.9875 L390.9489 489.1208" clip-path="url(#clipPath2)"/>
+      <path d="M387.2448 490.631 L400.622 491.6566 L387.2448 490.631 L396.0917 480.5446 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M387.2448 490.631 L400.622 491.6566 L387.2448 490.631 L396.0917 480.5446 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M352 519.0186 L352 544.041" clip-path="url(#clipPath2)"/>
+      <path d="M352 548.041 L358 536.041 L352 548.041 L346 536.041 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M352 548.041 L358 536.041 L352 548.041 L346 536.041 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M302.0122 515.7666 L276.8565 521.1848" clip-path="url(#clipPath2)"/>
+      <path d="M272.9461 522.027 L285.9405 525.3658 L272.9461 522.027 L283.4138 513.6348 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M272.9461 522.027 L285.9405 525.3658 L272.9461 522.027 L283.4138 513.6348 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M532.0222 456.2964 L590.0114 461.277" clip-path="url(#clipPath2)"/>
+      <path d="M593.9966 461.6194 L582.5541 454.6144 L593.9966 461.6194 L581.5272 466.5704 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M593.9966 461.6194 L582.5541 454.6144 L593.9966 461.6194 L581.5272 466.5704 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M482 465.9785 L482 500.9934" clip-path="url(#clipPath2)"/>
+      <path d="M482 504.9934 L488 492.9934 L482 504.9934 L476 492.9934 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M482 504.9934 L488 492.9934 L482 504.9934 L476 492.9934 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M384.6006 370.3293 L293.7023 384.8468" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M278.89 387.2125 L295.6361 390.614 L293.7435 378.7642 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M278.89 387.2125 L295.6361 390.614 L293.7435 378.7642 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M254.9609 298.5105 L238.3012 356.2989" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M234.1461 370.7119 L244.3434 357.0001 L232.813 353.676 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M234.1461 370.7119 L244.3434 357.0001 L232.813 353.676 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M336.0393 491.0184 L263.6147 427.5745" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M252.3316 417.6905 L260.4133 432.7466 L268.3205 423.7202 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M252.3316 417.6905 L260.4133 432.7466 L268.3205 423.7202 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M137.0049 416.3917 L173.1477 408.0014" clip-path="url(#clipPath2)"/>
+      <path d="M177.0441 407.0969 L163.9982 403.9659 L177.0441 407.0969 L166.7118 415.6551 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M177.0441 407.0969 L163.9982 403.9659 L177.0441 407.0969 L166.7118 415.6551 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M117.0391 373.1642 L171.8858 384.3049" clip-path="url(#clipPath2)"/>
+      <path d="M175.8058 385.1012 L165.2403 376.8325 L175.8058 385.1012 L162.8516 388.5924 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M175.8058 385.1012 L165.2403 376.8325 L175.8058 385.1012 L162.8516 388.5924 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" stroke-dasharray="none" d="M255.3525 270.5181 L247.4764 240.3261" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M241 190.5 L241 159.9702" clip-path="url(#clipPath2)"/>
+      <path d="M241 155.9702 L235 167.9702 L241 155.9702 L247 167.9702 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M241 155.9702 L235 167.9702 L241 155.9702 L247 167.9702 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M290.2896 97.0186 L260.3984 123.6906" clip-path="url(#clipPath2)"/>
+      <path d="M257.4139 126.3538 L270.3623 122.8412 L257.4139 126.3538 L262.3728 113.8875 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M257.4139 126.3538 L270.3623 122.8412 L257.4139 126.3538 L262.3728 113.8875 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M191.7104 97.0186 L221.6016 123.6906" clip-path="url(#clipPath2)"/>
+      <path d="M224.5861 126.3538 L219.6272 113.8875 L224.5861 126.3538 L211.6377 122.8412 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M224.5861 126.3538 L219.6272 113.8875 L224.5861 126.3538 L211.6377 122.8412 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M492.7556 534.0149 L517.7293 566.5564" clip-path="url(#clipPath2)"/>
+      <path d="M520.1646 569.7296 L517.6187 556.557 L520.1646 569.7296 L508.0989 563.8628 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M520.1646 569.7296 L517.6187 556.557 L520.1646 569.7296 L508.0989 563.8628 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M532.0365 526.366 L620.5756 537.6305" clip-path="url(#clipPath2)"/>
+      <path d="M624.5436 538.1353 L613.3968 530.6688 L624.5436 538.1353 L611.8823 542.5729 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M624.5436 538.1353 L613.3968 530.6688 L624.5436 538.1353 L611.8823 542.5729 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M511.5757 465.9977 L626.8441 520.5522" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M640.4023 526.969 L628.507 514.7011 L623.3735 525.5477 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M640.4023 526.969 L628.507 514.7011 L623.3735 525.5477 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M631.1542 557.7222 L586.3261 569.7678" clip-path="url(#clipPath2)"/>
+      <path d="M582.4631 570.8058 L595.609 573.4863 L582.4631 570.8058 L592.4951 561.8974 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-miterlimit="10" stroke-dasharray="none" d="M582.4631 570.8058 L595.609 573.4863 L582.4631 570.8058 L592.4951 561.8974 Z" clip-path="url(#clipPath2)" stroke-linecap="square"/>
+      <path fill="none" d="M460.686 207.2524 L531.0508 261.4299" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M542.936 270.581 L533.9189 256.0658 L526.5981 265.5739 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M542.936 270.581 L533.9189 256.0658 L526.5981 265.5739 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M492.4878 125.9202 L507.5 129.5 L517.5 200.5 L550.3528 255.9579" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M557.998 268.8634 L555.0054 252.0395 L544.681 258.1556 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M557.998 268.8634 L555.0054 252.0395 L544.681 258.1556 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M572.5 167.6446 L572.5 253.3438" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M572.5 268.3438 L578.5 252.3438 L566.5 252.3438 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M572.5 268.3438 L578.5 252.3438 L566.5 252.3438 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M462.5773 348.345 L518.1304 320.5482" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M531.5449 313.8362 L514.5513 315.6299 L519.921 326.3615 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M531.5449 313.8362 L514.5513 315.6299 L519.921 326.3615 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M489.9762 438.0169 L551.0829 330.8902" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M558.5151 317.8609 L545.3757 328.786 L555.7992 334.7317 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M558.5151 317.8609 L545.3757 328.786 L555.7992 334.7317 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M501 293.3438 L486 293.3438" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M471 293.3438 L487 299.3438 L487 287.3438 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M471 293.3438 L487 299.3438 L487 287.3438 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M586.5352 393.1935 L578.0978 333.1676" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M576.0098 318.3136 L572.2954 334.993 L584.1786 333.3227 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M576.0098 318.3136 L572.2954 334.993 L584.1786 333.3227 Z" clip-path="url(#clipPath2)"/>
+      <path fill="none" d="M538.5025 405.5576 L296.8539 397.7554" clip-path="url(#clipPath2)"/>
+      <path fill="white" d="M281.8618 397.2713 L297.6598 403.7845 L298.0471 391.7908 Z" clip-path="url(#clipPath2)" stroke="none"/>
+      <path fill="none" stroke-dasharray="none" d="M281.8618 397.2713 L297.6598 403.7845 L298.0471 391.7908 Z" clip-path="url(#clipPath2)"/>
     </g>
   </g>
 </svg>
