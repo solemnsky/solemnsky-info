@@ -146,10 +146,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
-     inkscape:cx="227.58724"
+     inkscape:cx="-98.388987"
      inkscape:cy="542.92463"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g8308"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -164,7 +164,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -192,7 +192,7 @@
            id="tspan6924-9"
            y="517.88721"
            x="181.62399"
-           sodipodi:role="line">latency = t1 - t3</tspan><tspan
+           sodipodi:role="line">latency = t3 - t1</tspan><tspan
            id="tspan6928-4"
            y="547.37366"
            x="181.62399"
