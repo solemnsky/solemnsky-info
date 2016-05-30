@@ -1,42 +1,26 @@
-# solemnsky status 2016-5-23
+# solemnsky status 2016-5-30
 
- * solemnsky commit: `02871d27d94b71a54cf2aa006a409a043617654d`
- * solemnsky.github.io commit: `59941a1ed3c2d2a8b1f638f01188388c83904655`
-
-This is our second solemnsky status update! I think that for the most part I'll be updating
- on a weekly basis from now on.
+ * solemnsky commit: `d359b3ba9a096d5c66dce26df513c44bd92e708e`
+ * solemnsky.github.io commit: `b57031ae443fb61669c65e49e963122760b141fe`
 
 # accomplishments
 
-Outline of the changes made during the week since the last update:
-
-* Moved documentation / status reports into new repository, solemnsky-info.
-* Wrote more documentation; documented engine and server, added and fixed diagrams.
-* Followed up with changes to a part of the engine design: Sky is now a subsystem, SkyHandle's tasks are much simpler, and game state invariants are clearer -- separately networked components are no longer inter-dependent.
-* Refactored the client (particularly `MultiplayerCore`) to be simpler and adhere to the new design.
-* Put `Game` information into an improved debug overlay.
-* Started work on the new site -- got new member of the team (welcome airballer), sketched the design, made a logo, and wrote a demo homepage.
-* Introduced the `Scoreboard` subsystem to manage score data with a separate networking strategy.
-* Extracted some geometry / graphics data from altitude maps!
-* Added serialization of `Map`s through cereal (JSON archive), created our first non-trivial map (a copy of `ball_asteriods` without graphics).
-* Added support for non-convex map obstacles, sourced and adjusted a triangulation lib.
-* Ran our first inter-continental multiplayer game. Woo.
+* Improved the site a bit. I'm going to delay any sort of launch or public visibility until we have more things working, so the site isn't a priority.
+* Upgraded the client's typeface. Much more modern and readable now.
+* Fixed network polling on server and client, using new pattern.
+* Added network stat collection / distribution.
+* Integrated scoreboard, wrote graphical representation for the client.
+* Sketched and implemented the gist of our networking model -- also added diagrams to `solemnsky-info`. Implemented new multiplayer synchronization features in engine.
+* Wrote entry-grade `Prop`s with networking.
+* Fixed some standards in the `Sky` API to be more accessible for modding.
+* Generally improved stability and added small features.
+* Wrote small `Server` supporting tdm-style game with insta-kill bullets, ran demos on the remote host with up to 14 active clients. Everything seems to work fine.
 
 # next steps
 
-The site should to be edited and published, in order to start pitching the project to 
- more potential collaborators.
+I had originally planned to introduce modding quickly, but this week ran by without giving me a break from networking. I now believe it would be prudent to make a solid multiplayer demo through a custom `Server` impl before diving into Lua, which will be a job in and of itself, given that the engine interface is still subject to change. 
 
-I need to add a host of small features to the client; also, develop some aspects of the
- networking system (e.g. filtering of packets by latency) and put the network sync
- design I've been dreaming up into place. I'm planning on diverging from Altitude's "annoying"
- totally-authoritative clients to a partial degree, while keeping some of the benefits this
- approach offers.
+I'd like to get the demo up this week -- something that can already have the 'feel' of solemnsky. Beyond improvements to the rudimentary `Props` and a improvements to the multiplayer protocol (we should have some sort of packet buffering happening on client-side), it would be smart to set flight mechanics tuning and game scales to something more sensible. Some decisions may not be indifferent to how the game is tuned, and it would be best to avoid suprises in the future.
 
-Additionally, we'll need async resource loading for maps, and will probably want to 
- substitute our static resource loading with it... perhaps we'll make a nice 
- loading screen while we're at it too.
-
-Finally, to speak of scripting: it would be prudent to start putting writing up some 
- hello-world scripting demos -- probably in Lua?
+Meanwhile, async resource loading + a map loading splash-screen (instantiating `Map` should not be `Sky`'s buisiness) are still somewhere towards the back of my mind. Hopefully I'll find time for them this week.
 
