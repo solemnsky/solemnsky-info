@@ -5,12 +5,12 @@
 
 # accomplishments
 
-I still have one exam to get through, but I started my summer re-entry into solemnsky development during the past week.
+Although I still have one exam to get through, I began my summer re-entry into solemnsky development last week.
 
 * Reorganized source directories (subdivided the increasingly large engine directory), changed C++ header files to use the more correct .hpp extension.
 * Improved client, refactored `appState` into the clearer and more correct `refereces` struct.
 * Made asynchronous resource loading work for the client.
-* Introduced the grand `Environment` struct! Maps, scripts, and graphics will be loadable asynchronously into these objects.
+* Introduced the grand `Environment` struct! Maps, scripts, and graphics will be loadable asynchronously through these objects.
 * Refactored engine to support asynchronous loading of `Environment` -- `SkyHandle` now has less responsibilities, since the instantiation of `Sky` isn't directly linked with a synchronous process. (The environment's map can take time to load!)
 * Started refactorization of protocol to support `Environment` loading.
 * Improved debugging display, brought `DebugView` back. Generally improved nature of debug prints.

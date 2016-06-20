@@ -14,9 +14,11 @@ By the development alpha release, I plan to have a highly usable client/server s
 A list of the foreseeable developments necessary to reach this point follows.
 
 * Client UI 
-  * Should leave a good first impression, and be intuitive and functional. (1.2) Should have useful settings, with support for persistence.
+  * Should leave a good first impression, and be intuitive and functional. 
+  * Should have useful settings, with support for persistence.
 * Environment (.sky) Format. 
-  * Should be constructible from altitude's maps with an automated tool. (2.2) Should be easy to add custom game graphics to.
+  * Should be constructible from altitude's maps with an automated tool. 
+  * Should be easy to add custom game graphics to.
 * Engine 
   * Should be improved to allow the server's implementation of a basic TBD-like mode.
 * Engine Sandbox 
@@ -27,5 +29,5 @@ A list of the foreseeable developments necessary to reach this point follows.
 * Multiplayer Server 
   * Should implement a basic TBD-like mode.
 * Multiplayer 
-  * Should employ packet buffering to compensate latency fluctuation in SkyDelta (dynamic game state) packets, on both client and server.
+  * Should employ packet buffering to compensate latency fluctuation in `SkyDelta` (dynamic game state) packets, on both client and server.
 
