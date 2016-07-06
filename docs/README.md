@@ -9,7 +9,7 @@ solemnsky is built from the ground up on a GCC / CMake toolchain. Our only non-t
 The project should be buildable on Windows, Linux, and OSX. It is, however, currently only 
  actively tested on Windows and Linux.
 
- * Windows: install http://nuwen.net/mingw.html -style MinGW, build with CMake.
+ * Windows: see `windows.md` in this directory for a comprehensive guide to developing on the famous Micro$oft OS.
  * OSX: Install Boost (homebrew works fine), and CMake to Xcode projects. You can build those.
  * Linux: Should build easily with CMake, if you're having problems just 
    `nix-build . -A default` and then you don't have problems anymore.
