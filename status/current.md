@@ -7,13 +7,15 @@
 
 This status is a little bit delayed relative to the norm because the past week was occupied rather fully by the last time-consuming thing I had to do this school / sports year -- and it would be too tiresome to write another depressing status update. In the past two days I gave development a kickstart:
 
+  * Switched from gzipped tar to zip for environment files.
   * Implemented archive decompression and accessing for both linux and windows -- we're using the 7zip binary instead of a library currently, but this could change in the future.
   * Implemented asynchronous loading of Environments from their files.
-  * Started using the boost::filesystem library for multiplatform paths.
+  * Started using the boost::filesystem library for multiplatform paths -- and started dealing with filepaths in a generally smarter manner.
   * Set up `spdlog` for speedy, configurable logging. (Mainly lasoloz's contribution.)
   * Fixed CMake config to enable -Werroring pedantic compiler flags for the project code, while letting the thirdparty library code build without hitches.
   * Cleaned up some old source, fixed an issue or two with cppcheck.
   * Added cppcheck pass to the CI build.
+  * Reactivated the multiplayer client code and started pulling it back together.
   
 With distractions with rust and personal obligations now in the past-tense, development will begin waxing back into significance. The summer is upon us.
 
