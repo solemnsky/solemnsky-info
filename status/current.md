@@ -1,16 +1,25 @@
-# solemnsky status 2016-6-27
+# solemnsky status 2016-7-7
 
- * solemnsky commit: `56c943f8f8e887c60ff92ea106134e5a55065b0c`
- * solemnsky.github.io commit: `b57031ae443fb61669c65e49e963122760b141fe`
+ * solemnsky commit: `28151613471d9ce1761777ea4ee6bec8402ada14`
+ * solemnsky.github.io commit: `2c68e042bed772174a648b13d281b166724f54ef`
 
 # accomplishments
 
-Not much was accomplished this week in the way of development, due to a set of other obligations and a need to spend some time away from C++. I finished the last of my exams, which means I'm totally free from high school. Towards the end of the week I learned Rust through some toy projects, and played with the idea of porting our codebase to it -- but decided that this undertaking would be too much of a risk of my time and sanity. Perhaps I'll reconsider in the future, if after the development alpha release we still have no C++ programmers helping.
+This status is a little bit delayed relative to the norm because the past week was occupied rather fully by the last time-consuming thing I had to do this school / sports year -- and it would be too tiresome to write another depressing status update. In the past two days I gave development a kickstart:
 
-This coming week will be the end of serious time-consuming obligations for me (national rowing championship.)
+  * Implemented archive decompression and accessing for both linux and windows -- we're using the 7zip binary instead of a library currently, but this could change in the future.
+  * Implemented asynchronous loading of Environments from their files.
+  * Started using the boost::filesystem library for multiplatform paths.
+  * Set up `spdlog` for speedy, configurable logging. (Mainly lasoloz's contribution.)
+  * Fixed CMake config to enable -Werroring pedantic compiler flags for the project code, while letting the thirdparty library code build without hitches.
+  * Cleaned up some old source, fixed an issue or two with cppcheck.
+  * Added cppcheck pass to the CI build.
+  
+With distractions with rust and personal obligations now in the past-tense, development will begin waxing back into significance. The summer is upon us.
+
+It's my pleasure to welcome [lasoloz](https://github.com/Lasoloz) onto the team as a prospective C++ programmer.
 
 # next steps
 
-* Same as last week -- but this week, things are more likely to get done.
-* (I've decided to use `libarchive` for our archiving needs. The C ecosystem is what C++ lives on, apparently.) 
-
+  * Fix the multiplayer client-side back up.
+  * Get back on track towards the public alpha release.
