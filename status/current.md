@@ -7,7 +7,7 @@
 
 Another two-week status jump. Summer has begun and I no longer have any serious obligations. But it's .. so warm. It's a challenge to keep an integral work schedule for solemnsky. My only hope is to get into a routine. Glenn (couleeapps)  is poking around solemnsky now and then, so I should get some welcome aid with C++. Lasoloz, meanwhile, has dropped from the team presently, due to academic obligations -- best of luck to him.
 
- * Fixed travis build.
+ * Fixed travis build -- success depends on clang compile with pedantic flags, tests, and cppcheck, combined in series.
  * Added a handful of github issues for the development alpha release, put them in a milestone.
  * General UI improvements:
   * Added `Transformed` wrapper control for easier management of UI components with spacial transformations.
